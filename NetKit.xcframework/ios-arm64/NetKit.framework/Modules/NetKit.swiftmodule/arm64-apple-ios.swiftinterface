@@ -1,0 +1,52 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NetKit
+import Foundation
+@_exported import NetKit
+import Swift
+@frozen public enum Result<T> {
+  case success(T)
+  case failure(NetKit.NetworkingError)
+}
+public enum NetworkingError : Swift.Error {
+  case domainError(description: Swift.String, errorCode: Swift.Int)
+  case invalidResponse
+  case invalidJSON
+}
+extension NetworkingError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public var errorCode: Swift.Int? {
+    get
+  }
+}
+@frozen public enum HTTPMethod : Swift.String {
+  case get
+  case post
+  case put
+  case delete
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class NetworkManager : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+  public func executeRequest<T>(_ request: NetKit.RequestProtocol, completion: @escaping (NetKit.Result<T>) -> Swift.Void) where T : Swift.Decodable
+}
+public protocol RequestProtocol {
+  var url: Foundation.URL { get }
+  var httpMethod: NetKit.HTTPMethod { get set }
+  var params: [Swift.String : Any]? { get set }
+  var timeoutInterval: Foundation.TimeInterval { get set }
+  var headers: [Swift.String : Swift.String]? { get set }
+  var cachePolicy: Foundation.URLRequest.CachePolicy { get set }
+  init(url: Foundation.URL, httpMethod: NetKit.HTTPMethod, cachePolicy: Foundation.URLRequest.CachePolicy, timeoutInterval: Foundation.TimeInterval)
+  func makeRequest() -> Foundation.URLRequest
+}
+extension NetKit.HTTPMethod : Swift.Equatable {}
+extension NetKit.HTTPMethod : Swift.Hashable {}
+extension NetKit.HTTPMethod : Swift.RawRepresentable {}
