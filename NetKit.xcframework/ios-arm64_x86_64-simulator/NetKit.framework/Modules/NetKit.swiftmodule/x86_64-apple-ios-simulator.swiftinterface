@@ -32,10 +32,10 @@ extension NetworkingError : Foundation.LocalizedError {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers public class NetworkManager : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers open class NetworkManager : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc deinit
-  public func executeRequest<T>(_ request: NetKit.RequestProtocol, completion: @escaping (NetKit.Result<T>) -> Swift.Void) where T : Swift.Decodable
+  open func executeRequest<T>(_ request: NetKit.RequestProtocol, completion: @escaping (NetKit.Result<T>) -> Swift.Void) where T : Swift.Decodable
 }
 public protocol RequestProtocol {
   var url: Foundation.URL { get }

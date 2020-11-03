@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/NetKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bVmPlelqhzu9Y4gZF1rVzyNbSpw=
+		rjDpGykOQu9c2cO664/k1MW4228=
 		</data>
 		<key>Modules/NetKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		K635yj8FwYfCd7lRlW/g+N/xiMU=
+		lVDGoTrk2jf0mohF3/x9BRudUKM=
 		</data>
 		<key>Modules/NetKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetKit.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		bVmPlelqhzu9Y4gZF1rVzyNbSpw=
+		rjDpGykOQu9c2cO664/k1MW4228=
 		</data>
 		<key>Modules/NetKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		K635yj8FwYfCd7lRlW/g+N/xiMU=
+		lVDGoTrk2jf0mohF3/x9BRudUKM=
 		</data>
 		<key>Modules/NetKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/NetKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yTwgYwzjc89/G4WAZPfoRZJFvZU=
+		BcIz/UfW4WpFbF+xMMuSHRuqCyU=
 		</data>
 		<key>Modules/NetKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yPXcXxHegK5rpMpASryqyn8j7R4=
+		jy0BM4YjRR2bYVeoR3yIoAge58s=
 		</data>
 		<key>Modules/NetKit.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/NetKit.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		yTwgYwzjc89/G4WAZPfoRZJFvZU=
+		BcIz/UfW4WpFbF+xMMuSHRuqCyU=
 		</data>
 		<key>Modules/NetKit.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		yPXcXxHegK5rpMpASryqyn8j7R4=
+		jy0BM4YjRR2bYVeoR3yIoAge58s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -96,14 +96,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5b+aYiPKUVK4zkWgnXlGZlDdWDl+ZWA4lLJxlTdoyGM=
+			u7c0rDLjamF5Lqyw8vRibTJ6G6h/wO50AuNdnR8+srI=
 			</data>
 		</dict>
 		<key>Modules/NetKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Ur8oLWdLw5+2k0yrVc0FOYnazhluDf3RfnSjiYHUT0=
+			Ir2KmvkJOpRbbrpz//pJq/D9UQjdeHJBrJGUdYfUfCo=
 			</data>
 		</dict>
 		<key>Modules/NetKit.swiftmodule/arm64.swiftdoc</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5b+aYiPKUVK4zkWgnXlGZlDdWDl+ZWA4lLJxlTdoyGM=
+			u7c0rDLjamF5Lqyw8vRibTJ6G6h/wO50AuNdnR8+srI=
 			</data>
 		</dict>
 		<key>Modules/NetKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Ur8oLWdLw5+2k0yrVc0FOYnazhluDf3RfnSjiYHUT0=
+			Ir2KmvkJOpRbbrpz//pJq/D9UQjdeHJBrJGUdYfUfCo=
 			</data>
 		</dict>
 		<key>Modules/NetKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -138,14 +138,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SLZ8K2FEBl7gm+tc9JP3z4siEV4wiNmkUIKiqj+40yI=
+			Cyjgjr14VTwI9mxp3xLXXW0tUVOX4mBEEfyjXlS90Bo=
 			</data>
 		</dict>
 		<key>Modules/NetKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cQwqJ2xWeruI/oVHlt9pca8vOW7OybZusvbBj/haeOU=
+			/QPq6EsTd4ymqGe+6ijwTFwT3KLPeLUQGRAfGlsdBTI=
 			</data>
 		</dict>
 		<key>Modules/NetKit.swiftmodule/x86_64.swiftdoc</key>
@@ -159,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SLZ8K2FEBl7gm+tc9JP3z4siEV4wiNmkUIKiqj+40yI=
+			Cyjgjr14VTwI9mxp3xLXXW0tUVOX4mBEEfyjXlS90Bo=
 			</data>
 		</dict>
 		<key>Modules/NetKit.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cQwqJ2xWeruI/oVHlt9pca8vOW7OybZusvbBj/haeOU=
+			/QPq6EsTd4ymqGe+6ijwTFwT3KLPeLUQGRAfGlsdBTI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
